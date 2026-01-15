@@ -1,0 +1,78 @@
+body{
+    font-family: sans-serif;
+}
+.contenedor_principal, .contenedor_mensajes{
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    align-items: center;
+    background-color: rgb(199, 199, 195,.427);
+    border-radius: 10px;
+    width: 50%;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0,0,0.3);
+    padding: 10px;
+}
+.nombreUsuario{
+    font-size: 30px;
+    font-weight: bold;
+}
+.contenedor_principal #inicioJornada, .cerrarSesion a{
+    background-color:rgb(32, 181, 89);
+    color:white;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+    padding:10px;
+    font-weight: bold;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 90px;
+    font-size: 20px;
+}
+.cerrarSesion a{
+    text-decoration: none;
+    background-color:rgb(32, 69, 181);
+    color:white;
+    margin-left: 110px ;
+}
+.cerrarSesion a:hover{
+    background-color:rgb(77, 104, 185);
+}
+.contenedor_principal #inicioJornada:hover, .contenedor_mensajes #confirmarSolicitud:hover{
+    background-color:rgb(66, 230, 128);
+}
+.contenedor_mensajes #finJornada, .contenedor_mensajes #confirmarSolicitud, .contenedor_mensajes #denegarSolicitud{
+    background-color:rgb(181, 32, 32);
+    color:white;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+    padding:10px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.contenedor_mensajes #confirmarSolicitud{
+    background-color:rgb(32, 181, 89);
+    color:white;
+    width: 30%;
+}
+.contenedor_mensajes #denegarSolicitud{
+    background-color:rgb(181, 32, 32);
+    color:white;
+    width: 100%;
+}
+.contenedor_mensajes #finJornada:hover,.contenedor_mensajes #denegarSolicitud:hover {
+    background-color:rgb(218, 109, 109);
+}
+.contenedor_mensajes .mensaje, .contenedor_mensajes .mensajeEspecial{
+    font-weight: lighter;
+    font-size: 25px;
+}
+.contenedor_mensajes .mensajeEspecial{
+    text-decoration: underline;
+}

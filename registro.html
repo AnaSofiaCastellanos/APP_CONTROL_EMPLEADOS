@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/forms_style.css">
+    <link rel="stylesheet" href="../css/home_style.css">
+</head>
+<body>
+    <div class="contenedor_form">
+        <form method="post" action="php/procesador_registro.php">
+            <table>
+                <thead>
+                    <th> <h1 class="title">Registrate</h1></th>
+                    
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" id="nombre" name="nombre" placeholder="Nombres" required></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="apellido" name="apellido" placeholder="Apellidos" required></td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <select name="tipoDoc" id="tipoDoc">
+                                <option>Seleccione su tipo de documento</option>
+                                <option value="Cédula de Ciudadanía">Cédula de Ciudadanía</option>
+                                <option value="Cédula de Extranjería">Cédula de Extranjería</option>
+                                <option value="Número de Identificación Personal">Número de Identificación Personal</option>
+                                <option value="Número Único de Identificación Personal">Número Único de Identificación Personal</option>
+                                <option value="Pasaporte">Pasaporte</option>
+                                <option value="Permiso de Protección Temporal">Permiso de Protección Temporal</option>
+                                <option value="Registro Único de Migrantes Venezolanos">Registro Único de Migrantes Venezolanos</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="numDoc" name="numDoc" placeholder="Número de documento" required></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="telefono" name="telefono" placeholder="Número de contacto" required></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select name="cargo" id="cargo">
+                                <option value="">Seleccione su cargo en el establecimiento</option>
+                                <option value="Cajero">Cajero</option>
+                                <option value="Gerente">Gerente</option>
+                                <option value="Mesero">Mesero</option>
+                                <option value="Repartidor">Repartidor</option>
+                                <option value="Limpieza">Limpieza</option>
+                                <option value="Cocinero">Cocinero</option>
+                                <option value="Recepcionista">Recepcionista</option>
+                                <option value="Surtidor">Surtidor</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="password" id="contrasena" name="contrasena" placeholder="Contraseña" required></td>
+                    </tr>
+                    
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td><button type="submit" id="registrarse" name="registrarse">Registrarse</button></td>
+                    </tr>
+                    <tr>
+                        <td class="redireccion"><a href="login.html">¿Ya tienes una cuenta? ¡Ingresa ahora!</a></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

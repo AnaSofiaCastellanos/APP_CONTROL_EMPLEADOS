@@ -1,0 +1,42 @@
+.contenedor_form{
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    align-items: center;
+    background-color: rgb(199, 199, 195,.427);
+    border-radius: 10px;
+    margin: 30px auto; 
+    width: 300px;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0,0,0.3);
+    padding: 10px;
+}
+.contenedor_form .title{
+    font-family:sans-serif;
+    font-weight: none;
+}
+.contenedor_form input, .contenedor_form select{
+    font-family: sans-serif;
+    width: 100%;
+    padding: 5px;
+}
+.contenedor_form #iniciarSesion, .contenedor_form #registrarse{
+    background-color:rgb(32, 69, 181);
+    color:white;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+    padding:10px;
+    font-weight: bolder;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contenedor_form #iniciarSesion:hover, .contenedor_form #registrarse:hover{
+    background-color: rgb(94, 116, 180);
+}
+.contenedor_form .redireccion a{
+    font-family: sans-serif;
+    color:blue;
+}
+

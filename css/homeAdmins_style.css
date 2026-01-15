@@ -1,0 +1,80 @@
+body{
+    font-family: sans-serif;
+}
+.contenedor_principal, .contenedor_mensajes{
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    align-items: center;
+    background-color: rgb(199, 199, 195,.427);
+    border-radius: 10px;
+    width: 70%;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0,0,0.3);
+    padding: 10px;
+}
+.nombreUsuario{
+    font-size: 45px;
+    font-weight: bold;
+}
+.tituloListado{
+    font-size: 35px;
+    font-weight: lighter;
+    display: flex;
+    margin: 30px auto;
+    align-items: center;
+    margin-left: 200px;
+}
+.contenedor_listado{
+    display: flex;
+    margin: 30px auto;
+    background-color: rgb(199, 199, 195,.427);
+    border-radius: 10px;
+    width: 90%;
+    height: auto;
+    border:1px, black, solid;
+    padding: 10px;
+}
+.contenedor_listado thead th{
+    width: 250px;
+    text-align: left;
+    padding: 20px;
+    font-size: 22px;
+}
+.contenedor_listado tbody tr td{
+    text-align: left;
+    padding-bottom: 25px;
+    padding-left: 18px;
+    font-size: 20px;
+}
+.contenedor_listado td a, .cerrarSesion a{
+    text-decoration: none;
+    background-color:rgb(32, 69, 181);
+    color:white;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+    padding:10px;
+    font-weight: bolder;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cerrarSesion a{
+    margin-left: 70px;
+}
+.cerrarSesion a:hover{
+    background-color:rgb(77, 104, 185);
+}
+.contenedor_listado td a:hover{
+    background-color:rgb(77, 104, 185);
+}
+.contenedor_listado td a input{
+    border: none;
+    background-color: rgb(32, 69, 181);
+    color:white;
+    font-size: 20px;
+}
+.contenedor_listado td a input:hover{
+    background-color:rgb(77, 104, 185);
+}

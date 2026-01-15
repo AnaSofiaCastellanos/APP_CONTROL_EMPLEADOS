@@ -1,0 +1,92 @@
+body{
+    font-family: sans-serif;
+}
+.contenedor_principal{
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    align-items: center;
+    background-color: rgb(199, 199, 195,.427);
+    border-radius: 10px;
+    width: 62%;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0,0,0.3);
+}
+.contenedor_principal .titulo{
+    font-size: 20px;
+    font-weight: bold;
+}
+.contenedor_informe{
+    display: flex;
+    margin: 30px auto;
+    background-color: rgb(199, 199, 195,.427);
+    border-radius: 10px;
+    width: 60%;
+    height: auto;
+    border:1px, black, solid;
+    padding: 10px;
+}
+.contenedor_informe th{
+    width: 250px;
+    text-align: left;
+    padding: 10px;
+    font-size: 22px;
+}
+.contenedor_informe tr td{
+    text-align: left;
+    padding-bottom: 10px;
+    font-size: 20px;
+    padding-left: 5px;
+}
+.contenedor_informe .estadoActivo{
+    color:white;
+    background-color: rgb(52, 216, 79);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contenedor_informe .estadoInactivo{
+    color:white;
+    background-color: rgb(216, 52, 52);
+    border-radius: 10px;
+    height: auto;
+    text-align: center;
+}
+#realizarPago{
+    background-color:rgb(32, 69, 181);
+    color:white;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+    padding:10px;
+    font-weight: bolder;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.mensaje{
+    font-weight: lighter;
+    font-size: 25px;
+}
+.regresarMenu a{
+    text-decoration: none;
+    background-color:rgb(32, 69, 181);
+    color:white;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+    padding:10px;
+    font-weight: bolder;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+.regresarMenu a:hover{
+    background-color:rgb(77, 104, 185);
+}
+.contenedor_informe .mensaje{
+    text-decoration: underline;
+}

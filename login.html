@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="../css/forms_style.css">
+</head>
+<body>
+    <div class="contenedor_form">
+        <form method="post" action="../php/procesador_login.php">
+            <table>
+                <thead>
+                    <th><h1 class="title">Iniciar Sesión</h1></th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" id="numDoc" name="numDoc" placeholder="Número de documento" required></td>
+                    </tr>
+                    <tr>
+                        <td><input type="password" id="contrasena" name="contrasena" placeholder="Contraseña" required></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td><button type="submit" id="iniciarSesion" name="iniciarSesion">Iniciar Sesión</button></td>
+                    </tr>
+                    <tr>
+                        <td class="redireccion"><a href="registro.html">¿No tienes una cuenta? ¡Creála ahora!</a></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
